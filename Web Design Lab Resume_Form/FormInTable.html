@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Table</title>
+    <link rel="stylesheet" href="FormInTable.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="table">
+            <table class="heading">
+                <tr>
+                    <th>Form in Table</th>
+                </tr>
+            </table>
+
+            <div class="tab">
+                <table class="content">
+                    <tr>
+                        <td>Your Full Name:</td>
+                        <td>
+                            <div class="form-row">
+                                <input type="text" id="name" name="name" placeholder="Enter Your First Name">
+                                <input type="text" id="name" name="name" placeholder="Enter Your Middle Name">
+                                <input type="text" id="name" name="name" placeholder="Enter Your Last Name">
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Your Adress:</td>
+                        <td>
+                            <textarea name="adress" id="adress" placeholder="Adress Line 1"></textarea>
+                            <textarea name="adress" id="adress" placeholder="Adress Line 2"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Your Email:</td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Email here...">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Your Password:</td>
+                        <td>
+                            <input type="password" name="pass" id="pass" placeholder="Password Required!">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Re-Enter Your Password:</td>
+                        <td>
+                            <input type="password" name="rpass" id="rpass" placeholder="ReType Password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Your Mobile Number:</td>
+                        <td>
+                            <input type="number" name="number" id="number" placeholder="Mobile Number 10 digit">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter Your Gender:</td>
+                        <td>
+                            <form>
+                                <div class="gender">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label>
+                                    <input type="radio" id="other" name="gender" value="other">
+                                    <label for="other">Other</label>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

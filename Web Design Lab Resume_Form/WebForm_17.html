@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebForm</title>
+    <link rel="stylesheet" href="Webform_17.css">
+    <link rel="icon" type="image/x-icon" href="form-icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <b>Students Registration Page</b><br>
+            <span>If you want to become a student of our faculty complete the form below:</span>
+        </div>
+        <div class="box1">
+            <b>Personal Information</b>
+        </div>
+        <div class="table1">
+            <table class="details">
+                <tr>
+                    <td>
+                        <label for="uname">Username<span class="required">*</span></label>
+                    </td>
+                    <td>
+                        <input type="text" id="uname" name="uname">   
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><small class="data">Username cannot be changed</small></td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="lname">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="photo">Photo</label>
+                    </td>
+                    <td>
+                        <input type="file" id="photo" name="photo" accept="image/*">
+                        <button type="button" class="upload-button">Upload</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Email<span class="required">*</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pass">Password<span class="required">*</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pass" name="pass">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><small class="data">Type your password Maximum length of 8 characters</small></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="rpass">Repeat Password<span class="required">*</label>
+                    </td>
+                    <td>
+                        <input type="password" id="rpass" name="rpass">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><small class="data">Type your password again</small></td>
+                </tr>
+            </table>      
+        </div>
+
+        <div class="box2">
+            <b>School Information</b>
+        </div>
+        <div class="table2">
+            <table class="details">
+                <tr>
+                    <td>
+                        <label for="school">School you currently attend</label>
+                    </td>
+                    <td>
+                        <input type="text" id="school" name="school">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="graduation">Expected graduation date</label>
+                    </td>
+                    <td>
+                        <input type="text" id="graduation" name="graduation">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box3">
+            <b>Reference</b>
+        </div>
+        <div class="table3">
+            <table class="details">
+                <tr>
+                    <td>
+                        <label for="photo">Upload your letter of recdommendation</label>
+                    </td>
+                    <td>
+                        <input type="file" id="photo" name="photo" accept="image/*">
+                        <button type="button" class="upload-button">Upload</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+            <span>Send these credentials via email</span>
+        </div>
+
+        <div class="table5"> <button type="submit" class="register-button">Register</button></div>
+       
+    </div>
+</body>
+
+</html>
